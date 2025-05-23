@@ -55,6 +55,13 @@ TEMPLATES = [
 WSGI_APPLICATION = 'todolist.wsgi.application'
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': ':memory:',  # Использование базы данных в памяти
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
